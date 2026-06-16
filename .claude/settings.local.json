@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(gh --version)",
-      "Bash(ls -la ~/.ssh/)",
-      "Read(//home/djch/**)"
-    ]
-  }
-}
