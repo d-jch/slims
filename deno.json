@@ -20,6 +20,7 @@
   ],
   "imports": {
     "@/": "./",
+    "@supabase/supabase-js": "npm:@supabase/supabase-js@^2.108.2",
     "daisyui": "npm:daisyui@^5.5.23",
     "fresh": "jsr:@fresh/core@^2.3.3",
     "preact": "npm:preact@^10.29.1",
