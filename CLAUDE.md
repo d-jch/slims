@@ -3,6 +3,7 @@
 ## 开发规则
 
 **写 Fresh 代码前必须：**
+
 1. 调用 `deno-skill/deno-frontend` skill，或
 2. 阅读 `/home/djch/projects/fresh/docs/latest` 相关文档
 
@@ -13,6 +14,10 @@
 - 路由导出名必须用 `handler`（单数），不能用 `handlers`（复数）
   - 原因：Deno linter 目前只接受 `handler`
   - PR: https://github.com/denoland/deno_lint/pull/1495
+
+## 代码规范
+
+- 修改代码后，先运行 `deno fmt` 格式化，再运行 `deno task check` 检查
 
 ## 开发服务器
 
